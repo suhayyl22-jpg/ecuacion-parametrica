@@ -1,4 +1,3 @@
-```python id="h9x2ac"
 # ==========================================================
 # RESOLUCIÓN DE EJERCICIOS
 # ECUACIONES PARAMÉTRICAS, RECTAS Y PLANOS
@@ -31,14 +30,16 @@ separador()
 
 print("\nEJERCICIO 1")
 
-P = np.array([1,2,3])
-v = np.array([2,-1,4])
+P = np.array([1, 2, 3])
+v = np.array([2, -1, 4])
 
 print("\nDatos:")
 print("P =", P)
 print("v =", v)
 
 print("\nProcedimiento:")
+
+print("Ecuaciones paramétricas:")
 
 print("x = 1 + 2t")
 print("y = 2 - t")
@@ -54,8 +55,8 @@ print("\nEcuación de la recta:")
 
 print("(x - 1)/2 = (y - 2)/(-1) = (z - 3)/4")
 
-print("\nResultado final:")
-print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
+print("\nResultado:")
+print("Recta obtenida correctamente.")
 
 # ==========================================================
 # EJERCICIO 2
@@ -64,14 +65,16 @@ print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
 separador()
 print("EJERCICIO 2")
 
-P = np.array([0,1,-2])
-v = np.array([3,2,1])
+P = np.array([0, 1, -2])
+v = np.array([3, 2, 1])
 
 print("\nDatos:")
 print("P =", P)
 print("v =", v)
 
 print("\nProcedimiento:")
+
+print("Ecuaciones paramétricas:")
 
 print("x = 3t")
 print("y = 1 + 2t")
@@ -87,8 +90,8 @@ print("\nEcuación de la recta:")
 
 print("x/3 = (y - 1)/2 = (z + 2)/1")
 
-print("\nResultado final:")
-print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
+print("\nResultado:")
+print("Recta obtenida correctamente.")
 
 # ==========================================================
 # EJERCICIO 3
@@ -97,14 +100,16 @@ print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
 separador()
 print("EJERCICIO 3")
 
-P = np.array([2,-1,4])
-v = np.array([1,5,-2])
+P = np.array([2, -1, 4])
+v = np.array([1, 5, -2])
 
 print("\nDatos:")
 print("P =", P)
 print("v =", v)
 
 print("\nProcedimiento:")
+
+print("Ecuaciones paramétricas:")
 
 print("x = 2 + t")
 print("y = -1 + 5t")
@@ -120,8 +125,8 @@ print("\nEcuación de la recta:")
 
 print("(x - 2)/1 = (y + 1)/5 = (z - 4)/(-2)")
 
-print("\nResultado final:")
-print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
+print("\nResultado:")
+print("Recta obtenida correctamente.")
 
 # ==========================================================
 # EJERCICIO 4
@@ -130,14 +135,16 @@ print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
 separador()
 print("EJERCICIO 4")
 
-P = np.array([-1,3,0])
-v = np.array([4,-2,5])
+P = np.array([-1, 3, 0])
+v = np.array([4, -2, 5])
 
 print("\nDatos:")
 print("P =", P)
 print("v =", v)
 
 print("\nProcedimiento:")
+
+print("Ecuaciones paramétricas:")
 
 print("x = -1 + 4t")
 print("y = 3 - 2t")
@@ -153,8 +160,8 @@ print("\nEcuación de la recta:")
 
 print("(x + 1)/4 = (y - 3)/(-2) = z/5")
 
-print("\nResultado final:")
-print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
+print("\nResultado:")
+print("Recta obtenida correctamente.")
 
 # ==========================================================
 # EJERCICIO 5
@@ -163,14 +170,16 @@ print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
 separador()
 print("EJERCICIO 5")
 
-P = np.array([5,2,-1])
-v = np.array([-2,3,1])
+P = np.array([5, 2, -1])
+v = np.array([-2, 3, 1])
 
 print("\nDatos:")
 print("P =", P)
 print("v =", v)
 
 print("\nProcedimiento:")
+
+print("Ecuaciones paramétricas:")
 
 print("x = 5 - 2t")
 print("y = 2 + 3t")
@@ -186,8 +195,8 @@ print("\nEcuación de la recta:")
 
 print("(x - 5)/(-2) = (y - 2)/3 = (z + 1)/1")
 
-print("\nResultado final:")
-print("Ecuaciones paramétricas y ecuación de la recta obtenidas.")
+print("\nResultado:")
+print("Recta obtenida correctamente.")
 
 # ==========================================================
 # 2. ECUACIONES CARTESIANAS DEL PLANO
@@ -203,9 +212,9 @@ separador()
 
 print("\nEJERCICIO A")
 
-P = np.array([1,-2,3])
-Q = np.array([4,6,1])
-R = np.array([-2,1,1])
+P = np.array([1, -2, 3])
+Q = np.array([4, 6, 1])
+R = np.array([-2, 1, 1])
 
 print("\nDatos:")
 print("P =", P)
@@ -244,6 +253,10 @@ print("-10(x + 2) + 12(y - 1) + 33(z - 1) = 0")
 
 print("-10x + 12y + 33z - 65 = 0")
 
+print("\nResultado final:")
+
+print("-10x + 12y + 33z - 65 = 0")
+
 # ==========================================================
 # EJERCICIO B
 # ==========================================================
@@ -251,9 +264,9 @@ print("-10x + 12y + 33z - 65 = 0")
 separador()
 print("EJERCICIO B")
 
-S = np.array([1,-1,1])
-T = np.array([2,3,5])
-U = np.array([6,-4,3])
+S = np.array([1, -1, 1])
+T = np.array([2, 3, 5])
+U = np.array([6, -4, 3])
 
 print("\nDatos:")
 print("S =", S)
@@ -292,6 +305,10 @@ print("20(x - 6) + 18(y + 4) - 23(z - 3) = 0")
 
 print("20x + 18y - 23z + 21 = 0")
 
+print("\nResultado final:")
+
+print("20x + 18y - 23z + 21 = 0")
+
 # ==========================================================
 # 3. INTERSECCIÓN ENTRE RECTA Y PLANO
 # ==========================================================
@@ -300,9 +317,9 @@ separador()
 print("3. INTERSECCIÓN ENTRE UNA RECTA Y UN PLANO")
 separador()
 
-Q = np.array([1,-1,1])
-P = np.array([1,-1,2])
-N = np.array([1,2,3])
+Q = np.array([1, -1, 1])
+P = np.array([1, -1, 2])
+N = np.array([1, 2, 3])
 
 print("\nDatos:")
 
@@ -332,13 +349,13 @@ print("t + 4t + 3 + 9t = 0")
 
 print("14t + 3 = 0")
 
-t = -3/14
+t = -3 / 14
 
 print("t =", t)
 
 x = 1 + t
-y = -1 + 2*t
-z = 2 + 3*t
+y = -1 + 2 * t
+z = 2 + 3 * t
 
 print("\nPunto de intersección:")
 
@@ -357,4 +374,3 @@ print("Punto de intersección encontrado correctamente.")
 separador()
 print("TODOS LOS EJERCICIOS FUERON RESUELTOS")
 separador()
-```
