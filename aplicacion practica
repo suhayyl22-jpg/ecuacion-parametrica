@@ -1,0 +1,159 @@
+# ==========================================================
+# APLICACIÓN PRÁCTICA
+# INTERSECCIÓN ENTRE UNA RECTA Y UN PLANO
+# ==========================================================
+
+# ==========================================================
+# IMPORTAR LIBRERÍA
+# ==========================================================
+
+import numpy as np
+
+# ==========================================================
+# FUNCIÓN SEPARADORA
+# ==========================================================
+
+def separador():
+    print("\n====================================================")
+
+# ==========================================================
+# TÍTULO
+# ==========================================================
+
+separador()
+print("APLICACIÓN PRÁCTICA")
+print("INTERSECCIÓN ENTRE UNA RECTA Y UN PLANO")
+separador()
+
+# ==========================================================
+# PROBLEMA
+# ==========================================================
+
+print("\nPROBLEMA:")
+
+print("Un dron realiza un desplazamiento en el espacio")
+print("siguiendo una trayectoria recta.")
+print("Se desea determinar el punto donde atraviesa")
+print("un plano de control.")
+
+# ==========================================================
+# DATOS
+# ==========================================================
+
+print("\nDATOS DEL PROBLEMA")
+
+# Punto inicial de la recta
+P = np.array([1, 2, 1])
+
+# Vector dirección
+v = np.array([2, 1, 3])
+
+print("\nPunto inicial de la recta:")
+print("P =", P)
+
+print("\nVector dirección:")
+print("v =", v)
+
+# ==========================================================
+# ECUACIONES PARAMÉTRICAS
+# ==========================================================
+
+print("\nECUACIONES PARAMÉTRICAS DE LA RECTA")
+
+print("x = 1 + 2t")
+print("y = 2 + t")
+print("z = 1 + 3t")
+
+# ==========================================================
+# ECUACIÓN DEL PLANO
+# ==========================================================
+
+print("\nECUACIÓN DEL PLANO")
+
+print("x + y + z - 10 = 0")
+
+# ==========================================================
+# PROCEDIMIENTO
+# ==========================================================
+
+print("\nPROCEDIMIENTO")
+
+print("\n1. Sustituimos las ecuaciones paramétricas")
+print("   dentro de la ecuación del plano:")
+
+print("\n(1 + 2t) + (2 + t) + (1 + 3t) - 10 = 0")
+
+print("\n2. Eliminamos paréntesis:")
+
+print("1 + 2t + 2 + t + 1 + 3t - 10 = 0")
+
+print("\n3. Sumamos términos semejantes:")
+
+print("4 + 6t - 10 = 0")
+
+print("\n4. Simplificamos:")
+
+print("6t - 6 = 0")
+
+print("\n5. Despejamos t:")
+
+print("6t = 6")
+
+t = 1
+
+print("t =", t)
+
+# ==========================================================
+# CÁLCULO DEL PUNTO
+# ==========================================================
+
+print("\nCÁLCULO DEL PUNTO DE INTERSECCIÓN")
+
+x = 1 + 2 * t
+y = 2 + t
+z = 1 + 3 * t
+
+print("\nReemplazando t = 1")
+
+print("\nx = 1 + 2(1)")
+print("x =", x)
+
+print("\ny = 2 + 1")
+print("y =", y)
+
+print("\nz = 1 + 3(1)")
+print("z =", z)
+
+# ==========================================================
+# RESULTADO FINAL
+# ==========================================================
+
+print("\nRESULTADO FINAL")
+
+print("El punto de intersección entre")
+print("la recta y el plano es:")
+
+print("(", x, ",", y, ",", z, ")")
+
+# ==========================================================
+# VERIFICACIÓN
+# ==========================================================
+
+print("\nVERIFICACIÓN")
+
+verificacion = x + y + z - 10
+
+print("Sustituyendo el punto en el plano:")
+
+print(x, "+", y, "+", z, "- 10 =", verificacion)
+
+print("\nComo el resultado es 0,")
+print("el punto pertenece al plano.")
+
+# ==========================================================
+# FIN
+# ==========================================================
+
+separador()
+print("PROGRAMA FINALIZADO")
+separador()
